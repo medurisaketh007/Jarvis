@@ -101,12 +101,6 @@ def start_voice_assistant():
         elif "twitter" in user_input:
             redirect_to_website("https://twitter.com/")
             speak("Yes Boss!")
-        elif "who created you" in user_input:
-            speak("Saketh has created me! He is my boss! He is the creater and destroyer. I am under his control.")
-        elif "allah" in user_input:
-            speak("Islam is bullshit. Hinduism is supreme. Stay calm and say ,  Jai Shree Ram! ")
-        elif "god" in user_input:
-            speak("Hare Rama hare Rama rama rama hare hare , hare krishna hare krishna krishna krishna hare hare.")
         else:
             google_search(user_input)
             speak("Yes Boss!")
